@@ -1,3 +1,25 @@
+@media only screen and (min-width: 1024px) {
+  .mobile-navigation {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024) {
+
+  nav .container {
+    display: none;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .mobile-navigation {
+    display: block;
+    text-align: center;
+  }
+}
+
 /* General Styling */
 html {
   font-size: 18px;
@@ -10,6 +32,10 @@ body {
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+img {
+  border-style: none;
 }
 
 /* COMPANY SECTION */
@@ -80,4 +106,64 @@ nav a {
   text-decoration: none;
 }
 
-/* CONTENT SECTION */
+/* PRODUCT SECTION */
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product {
+  width: 30%
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: .5rem 0;
+}
+
+.product-image {
+  border: 4px solid black;
+  height: 9rem;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+/* INFORMATION SECITON */
+.business-info {
+  margin: 3rem 0 4rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  width: 35%;
+}
+
+.title {
+  display: block;
+  padding: 1rem 0 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+/* FOOTER SECTION */
+footer {
+  padding: 5rem 0;
+  background-color: black;
+  color: white;
+}
+
+footer .container {
+  text-align: left;
+}
