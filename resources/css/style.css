@@ -1,0 +1,83 @@
+/* General Styling */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* COMPANY SECTION */
+.company {
+  color: white;
+  background-color: black;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: .66rem 0;
+}
+
+.company .container img {
+  padding-left: .5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+.company .container span {
+  font-size: 1rem;
+}
+
+/* BANNER SECTION */
+.main-banner {
+  background-image: url("../images/motorcycle.jpeg");
+  height: 25rem;
+  width: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.headline {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  width: 20rem;
+  padding: 2rem 3rem;
+  top: 9rem;
+  position: relative;
+}
+
+.headline h4 {
+  font-size: 1rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  margin: .25rem 0;
+}
+
+/* NAVIGATION SECITON */
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .75rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* CONTENT SECTION */
