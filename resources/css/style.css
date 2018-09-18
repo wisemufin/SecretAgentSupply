@@ -168,17 +168,17 @@ footer .container {
     color: white;
   }
 /* TABLET HEADER SECTION */
-  #header {
+  /* #header {
     font-size: 2rem;
-  }
+  } */
 
   .company .container {
     padding: 1rem 0;
   }
 
-  .company .container img {
+  /* .company .container img {
     height: 2rem;
-  }
+  } */
   /* TABLET PRODUCT SECTION */
 
   .product {
@@ -192,10 +192,63 @@ footer .container {
   .headline {
       width: 20rem;
   }
+  .info {
+    width: 35%;
+  }
+
 }
 /* PHONE QUERY */
 @media only screen and (max-width: 470px) {
+  .company .container img {
+    height: 1.25rem;
+  }
+
+  #header {
+    font-size: 1.25rem;
+  }
+
   .headline {
     width: auto;
+    padding: 1rem 2rem;
+    top: 10.5rem;
   }
+
+  .headline h4 {
+    font-size: .77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .main-banner {
+    height: 15rem;
+  }
+
+  .watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%
+  }
+
+  .products {
+    justify-content: center;
+  }
+
+  .business-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .info {
+      width: 90%;
+      margin-bottom: .5rem;
+    }
+
+    footer .container {
+      text-align: center;
+    }
 }
