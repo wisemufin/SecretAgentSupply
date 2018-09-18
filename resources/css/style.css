@@ -1,25 +1,64 @@
+/* DESKTOP QUERY */
 @media only screen and (min-width: 1024px) {
   .mobile-navigation {
     display: none;
   }
+
+  .product {
+    width: 30%;
+  }
+  .headline {
+      width: 20rem;
+  }
 }
-
-@media only screen and (max-width: 1024) {
-
-  nav .container {
+/* TABLET QUERY */
+@media only screen and (max-width: 1024px) {
+/* TABLET NAVIGATION SECTION */
+  nav .main-menu {
     display: none;
   }
 
-  body {
-    font-size: 16px;
+  .mobile-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+/* TABLET HEADER SECTION */
+  #header {
+    font-size: 2rem;
   }
 
-  .mobile-navigation {
-    display: block;
-    text-align: center;
+  .company .container {
+    padding: 1rem 0;
+  }
+
+  .company .container img {
+    height: 2rem;
+  }
+  /* TABLET PRODUCT SECTION */
+
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
   }
 }
+/* PHONE QUERY */
+@media only screen and (max-width: 470px) {
+  .headline {
+    width: auto;
 
+  }
+
+  .main-banner {
+    height: 2rem;
+  }
+
+
+}
 /* General Styling */
 html {
   font-size: 18px;
@@ -74,7 +113,6 @@ img {
   color: white;
   background-color: black;
   font-weight: bold;
-  width: 20rem;
   padding: 2rem 3rem;
   top: 9rem;
   position: relative;
@@ -112,10 +150,6 @@ nav a {
   align-items: center;
   justify-content: space-between;
   margin-top: 3rem;
-}
-
-.product {
-  width: 30%
 }
 
 .description {
